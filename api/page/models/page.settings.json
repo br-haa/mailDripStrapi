@@ -29,6 +29,27 @@
     "phone": {
       "type": "string",
       "required": true
+    },
+    "content1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-group.content",
+      "required": true
+    },
+    "content2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-group.content2"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-group.form",
+      "required": true
+    },
+    "cta": {
+      "type": "string",
+      "required": true
     }
   }
 }

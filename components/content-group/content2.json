@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_content_group_content2s",
+  "info": {
+    "name": "Content2",
+    "icon": "comment-dots",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "bodyText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-group.body-text"
+    }
+  }
+}

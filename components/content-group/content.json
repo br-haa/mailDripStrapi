@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_group_contents",
+  "info": {
+    "name": "Content",
+    "icon": "comment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "bodyText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-group.body-text",
+      "required": true
+    }
+  }
+}
